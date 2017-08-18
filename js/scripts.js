@@ -4,8 +4,11 @@ var pong = function (number){
   var ping =[];
 
   for(var i = 1; i<=number; i++){
-    ping.push(i);
-
+    if(i%3 ===0){
+      ping.push("ping")
+    }else{
+      ping.push(i);
+    }
   };
   return ping;
 };
