@@ -14,29 +14,29 @@ _Counting to the entered integer follows three rules:_
 
 ## Specifications:
 
-Take a number as input and display it in the results section of the page
-I: 22
-O: 22
+_Take a number as input and display it in the results section of the page_
+*_I: 22_
+*_O: 22_
 
-Take a number as input and convert it to an array that long:
-*I: 5
-*O: [1,2,3,4,5]
+_Take a number as input and convert it to an array of the same length:_
+*_I: 5_
+*_O: [1,2,3,4,5]_
 
-Check if each value is divisible by 3 and return ping if True
-*I:5
-*o:[1,2,ping,4,5]
+_Check if each value is divisible by 3 and return ping if True_
+*_I:5_
+*_o:[1,2,ping,4,5]_
 
-Check if each value is divisible by 5 and return pong if True
-*I:5
-*o:[1,2,3,4,pong]
+_Check if each value is divisible by 5 and return pong if True_
+*_I:5_
+*_o:[1,2,3,4,pong]_
 
-check if each number is divisible by 3 or 5, print ping and pong respectively
-*I:5
-*o:[1,2,pong,4,pong]
+_Check if each number is divisible by 3 or 5, print ping and pong respectively_
+*_I:5_
+*_o:[1,2,pong,4,pong]_
 
-Check if each number of the array is divisible by both 3 and 5 and output ping-pong at that index
-*I:15
-*o:[1,2,ping,4,pong,ping,7,8,ping, pong,11,ping,13,14,Ping-pong];
+_Check if each number of the array is divisible by both 3 and 5 and output ping-pong at that index_
+*_I:15_
+*_o:[1,2,ping,4,pong,ping,7,8,ping, pong,11,ping,13,14,Ping-pong];_
 
 
 ## Setup/Installation Requirements
