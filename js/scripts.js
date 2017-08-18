@@ -22,7 +22,7 @@ var pong = function (number){
 
 // User Interface
 $(document).ready(function(){
-  $("form#pong").submit(function(event){
+  $("form#usersNumber").submit(function(event){
     event.preventDefault();
     var usersNumber = parseInt($("input.number").val());
     console.log(usersNumber);

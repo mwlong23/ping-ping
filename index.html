@@ -10,12 +10,11 @@
   </head>
   <body>
     <div class="container">
-      <div class="jumbotron">
+      <div class="header">
         <h1 >Ping-Pong</h1>
-        <p >By: <a href="https://github.com/mwlong23">Mitch Long</a></p>
+        <h2>By: <a href="https://github.com/mwlong23">Mitch Long</a></h2>
       </div>
-      <div class="row well" id="rules">
-        <div class="col-sm-6">
+      <div class="well" id="rules">
           <h1>Here's how to play:</h1>
           <ul>
             <li>Enter an Integer</li>
@@ -23,26 +22,31 @@
             <li>Numbers divisible by 5 become "pong"</li>
             <li>Numbers divisible by 5 become Ping-pong</li>
           </ul>
+          <form id="usersNumber" action="index.html" method="post">
+            <div class="form-group">
+              <label class="control-label"for="numer">Please Enter an Integer:</label>
+              <input class="number form-control" type="text"  name="" value="">
+            </div>
+            <button class="btn btn-default" type="submit" name="button">Submit!</button>
+          </form>
         </div>
-        <div class="col-sm-6">
-        <img src="img/pingpong.jpg" alt="">
-        </div>
-        <form id="pong" action="index.html" method="post">
-          <div class="form-group">
-            <label for="numer">Please Enter an Integer:</label>
-            <input class="number" class="form-control" type="text"  name="" value="">
-          </div>
-          <button type="submit" name="button">Submit!</button>
-        </form>
         <br>
-      </div>
+        <div class="row">
+          <div class="col-6-sm">
+            <div class="" id="result">
+              <h1>Result For: <span class="number"></span></h1>
+              <div >
+                <input class="btn btn-promary" type="button" value="Try Again" onClick="window.location.reload()">
+                <br>
+                <br>
+              </div>
+              <ul id="bullets">
+              </ul>
+              <br>
 
-      <div class="well" id="result">
-        <h1>Result For: <span class="number"></span></h1>
-        <ul id="bullets">
-
-        </ul>
-
+            </div>
+          </div>
+        </div>
       </div>
     </div>
   </body>
