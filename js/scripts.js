@@ -24,7 +24,7 @@ var pong = function (number){
 $(document).ready(function(){
   $("form#pong").submit(function(event){
     event.preventDefault();
-    var usersNumber = parseInt($("input#number").val());
+    var usersNumber = parseInt($("input.number").val());
     console.log(usersNumber);
     var pingPongArray = pong(usersNumber);
     // var bullets = $("#bullets").text(resultsBullets(pingPongArray));
@@ -35,6 +35,11 @@ $(document).ready(function(){
         var element = $('<li>'+pingPongArray[x]+'</li>');
         elements.push(element);
     }
+    $("#result").show();
     $('#bullets').append(elements);
+    $("#rules").hide();
+    $(".number").append(usersNumber);
+
+
   });
 });

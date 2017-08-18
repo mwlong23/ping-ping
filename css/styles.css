@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css?family=Bree+Serif|Open+Sans');
+@import url('https://fonts.googleapis.com/css?family=Roboto|Saira+Semi+Condensed');
+
+#result{
+  display:none;
+}
+
+h1{
+  font-family: 'Roboto', sans-serif;
+}
+li {
+  font-family: 'Saira Semi Condensed', sans-serif;
+}
+body{
+  background-color: #10A7A7;
+
+}
+.well, .jumbotron, button{
+  background-color: #E0C493;
+  border: 4px solid black;
+}
+img {
+ float:right;
+ border-radius: 8px;
+ border: 2px solid white;
+}
