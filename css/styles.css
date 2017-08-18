@@ -4,44 +4,24 @@
 #result{
   display:none;
 }
-#result li{
-  color: white;
-  font-size: 50px;
+
+body {
+  /*background-color: #E5E5E5;*/
+}
+.page-header,.page-header h1 {
+  margin-top:0;
+}
+
+.page-header h1 {
+  text-align:center;
+  background-color:#F3DBB3;
+  padding: 60px;
 }
 
 
-
-body{
-  background-image: url("../img/whale.jpg");
-  opacity: .8;
-  background-attachment: fixed;
-  font-family: 'Roboto', sans-serif;
-}
-.well h1{
-  color: black;
-}
-.header h2 {
-  color: white;
-}
-div h1{
-  color: white;
-  font-size: 70px;
-}
-.well {
-  border: 2px solid black;
-}
-img {
- float:right;
- border-radius: 8px;
- border: 2px solid white;
-}
-
-.header{
-  margin-top: 40px;
-  margin-bottom: 80px;
-  border-radius: 4px;
-}
-
-.header{
-  background-color: black;
+#sidebar {
+    background-color: #93B993;
+  }
+#rules{
+  background-color: #E5E5E5;
 }

@@ -9,45 +9,54 @@
     <title>Ping-Pong</title>
   </head>
   <body>
-    <div class="container">
-      <div class="header">
-        <h1 >Ping-Pong</h1>
-        <h2>By: <a href="https://github.com/mwlong23">Mitch Long</a></h2>
-      </div>
-      <div class="well" id="rules">
-          <h1>Here's how to play:</h1>
-          <ul>
-            <li>Enter an Integer</li>
-            <li>Numbers divisible by 3 become "ping"</li>
-            <li>Numbers divisible by 5 become "pong"</li>
-            <li>Numbers divisible by 5 become Ping-pong</li>
-          </ul>
-          <form id="usersNumber" action="index.html" method="post">
-            <div class="form-group">
-              <label class="control-label"for="numer">Please Enter an Integer:</label>
-              <input class="number form-control" type="text"  name="" value="">
-            </div>
-            <button class="btn btn-default" type="submit" name="button">Submit!</button>
-          </form>
+    <div class="container-fluid">
+      <div class="row">
+        <div class="page-header">
+          <h1>Ping Pong</h1>
         </div>
-        <br>
+      </div>
+    </div>
+
+
+      <div class="container">
         <div class="row">
-          <div class="col-6-sm">
+          <div class="col-sm-4" id="sidebar">
+            <h3>About Ping Ping</h3>
+            <h4>Created by:</h4>
+            <p>Mitchell Long</p>
+            <h4>GitHub Username/URL:</h4>
+            <p><a href="https://github.com/mwlong23"></a>mwlong23</p>
+          </div>
+          <div class="col-sm-8" id="rules">
+            <h1 >Ping-Pong</h1>
+            <h1>Here's how to play:</h1>
+            <ul>
+              <li>Enter an Integer</li>
+              <li>Numbers divisible by 3 become "ping"</li>
+              <li>Numbers divisible by 5 become "pong"</li>
+              <li>Numbers divisible by 5 become Ping-pong</li>
+            </ul>
+            <form id="usersNumber" action="index.html" method="post">
+              <div class="form-group">
+                <label class="control-label"for="numer">Please Enter an Integer:</label>
+                <input class="number form-control" type="text"  name="" value="">
+              </div>
+              <button class="btn btn-default" type="submit" name="button">Submit!</button>
+            </form>
             <div class="" id="result">
               <h1>Result For: <span class="number"></span></h1>
               <div >
                 <input class="btn btn-promary" type="button" value="Try Again" onClick="window.location.reload()">
                 <br>
                 <br>
+                <ul id="bullets">
+                </ul>
+                <br>
               </div>
-              <ul id="bullets">
-              </ul>
-              <br>
-
             </div>
           </div>
         </div>
       </div>
-    </div>
+
   </body>
 </html>

@@ -17,9 +17,6 @@ var pong = function (number){
 };
 
 
-
-
-
 // User Interface
 $(document).ready(function(){
   $("form#usersNumber").submit(function(event){
@@ -37,7 +34,7 @@ $(document).ready(function(){
     }
     $("#result").show();
     $('#bullets').append(elements);
-    $("#rules").hide();
+    // $("#rules").hide();
     $(".number").append(usersNumber);
 
 
