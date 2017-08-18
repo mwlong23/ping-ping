@@ -6,18 +6,43 @@
 
 ## Description
 
-_This application asks the user to enter an integer and counts up to that number.
-Counting to the entered integer follows three rules:_
+_This application asks the user to enter an integer and counts up to that number._
+_Counting to the entered integer follows three rules:_
 *_Integers divisible by 3 are replaced by ping_
 *_divisible by 5 are replaced by pong_*  
 *_integers divisible by 3 and 5 are replaced by Ping-pong_
 
-_Example of Input/Output:_
+## Specifications:
+
+Take a number as input and display it in the results section of the page
+I: 22
+O: 22
+
+Take a number as input and convert it to an array that long:
+I: 5
+O: [1,2,3,4,5]
+
+Check if each value is divisible by 3 and return ping if True
+I:5
+o:[1,2,ping,4,5]
+
+Check if each value is divisible by 5 and return pong if True
+I:5
+o:[1,2,3,4,pong]
+
+check if each number is divisible by 3 or 5, print ping and pong respectively
+I:5
+o:o:[1,2,pong,4,pong]
+
+Check if each number of the array is divisible by both 3 and 5 and output ping-pong at that index
+I:15
+o:[1,2,ping,4,pong,ping,7,8,ping, pong,11,ping,13,14,Ping-pong];
+
 
 ## Setup/Installation Requirements
 
 * _Open your terminal application_
-* _type git clone https://github.com/mwlong23/ping-ping _
+* _type git clone https://github.com/mwlong23/ping-ping_
 * _open index.html file in our favorite browser_
 * _Enjoy_
 
@@ -36,10 +61,10 @@ _This application was written using basic html, bootstrap, CSS, Jquery, and Java
 
 ### License
 
-_Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
 
 The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
 
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE._
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 
-Copyright (c) 201 **_By Mitchell Long_**
+Copyright (c) 2017 **_By Mitchell Long_**
