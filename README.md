@@ -19,24 +19,24 @@ I: 22
 O: 22
 
 Take a number as input and convert it to an array that long:
-I: 5
-O: [1,2,3,4,5]
+*I: 5
+*O: [1,2,3,4,5]
 
 Check if each value is divisible by 3 and return ping if True
-I:5
-o:[1,2,ping,4,5]
+*I:5
+*o:[1,2,ping,4,5]
 
 Check if each value is divisible by 5 and return pong if True
-I:5
-o:[1,2,3,4,pong]
+*I:5
+*o:[1,2,3,4,pong]
 
 check if each number is divisible by 3 or 5, print ping and pong respectively
-I:5
-o:o:[1,2,pong,4,pong]
+*I:5
+*o:[1,2,pong,4,pong]
 
 Check if each number of the array is divisible by both 3 and 5 and output ping-pong at that index
-I:15
-o:[1,2,ping,4,pong,ping,7,8,ping, pong,11,ping,13,14,Ping-pong];
+*I:15
+*o:[1,2,ping,4,pong,ping,7,8,ping, pong,11,ping,13,14,Ping-pong];
 
 
 ## Setup/Installation Requirements
